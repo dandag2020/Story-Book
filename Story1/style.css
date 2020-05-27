@@ -1,0 +1,21 @@
+section{
+    background: url("teen-titans-go-logo-4C6F96FEBA-seeklogo.com.png") no-repeat center;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.section-content{
+    border: 5px red solid;
+    height: 300px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.content-link{
+    display: flex;
+    justify-content: space-between;
+}

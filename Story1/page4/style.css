@@ -1,25 +1,29 @@
 body {
-    background: url("01.png") no-repeat;
+    background: url("cyborg.jpg") no-repeat;
     background-size: cover;
 }
 header h1{
     text-align: center;
+    font-size: 70px;
+    text-transform: uppercase;
 }
 
 main{
-    height: 90vh;
+    height: 80vh;
     display: flex;
     align-items: flex-end;
 }
 
 main section{
-    border:5px red solid;
+    border:5px lightgray solid;
     height: 300px;
     width: 80%;
     margin: 0 auto;
-    background-color: white;
+    background-color: black;
     opacity: 0.7;
     border-radius: 10px;
+    color: gray;
+    font-weight: 800;
 }
 
 main section .section-content p{

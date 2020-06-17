@@ -1,5 +1,5 @@
 body {
-    background: white url("star.jpg") no-repeat;
+    background: white url("raven.jpg") no-repeat;
     background-size: cover;
 }
 header h1{
@@ -15,14 +15,14 @@ main{
 }
 
 main section{
-    border:5px solid rgb(224, 15, 207);
+    border:5px solid purple;
     height: 300px;
     width: 80%;
     margin: 0 auto;
     background-color: yellow;
     opacity: 0.7;
     border-radius: 10px;
-    color: rgb(224, 15, 207);
+    color: purple;
     font-weight: 800;
 }
 
@@ -56,3 +56,6 @@ main section .content-link a:hover{
     color: black;
 }
 
+header h1{
+    color: yellow;
+}
